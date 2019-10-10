@@ -105,6 +105,10 @@ aside {
     padding: 5px;
 }
 
+#aside-c input {
+    max-width: 120px;
+}
+
 footer {
     display: flex;
     flex-direction: column;
