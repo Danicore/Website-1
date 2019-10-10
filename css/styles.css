@@ -81,8 +81,16 @@ aside {
 
 #aside-a, #non-aside-a {
     height: 50px;
-    padding-left: 10px;
+    padding-left: 20px;
     font-size: 1.5em;
     display: flex;
     align-items: center;
+}
+
+#non-aside-b, #non-aside-d {
+    display: flex;
+}
+
+#na-b3, #na-d2 {
+    background: #06130d;
 }
