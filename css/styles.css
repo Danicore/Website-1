@@ -43,6 +43,7 @@ nav {
 
 #portrait article {
     display: flex;
+    visibility: hidden;
 }
 
 #content {
@@ -130,8 +131,12 @@ footer {
 
 /*mobile view*/
 @media (max-width: 767px) {
-    body {
+    html, body {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    aside>*, #non-aside>* {
+        margin-bottom: 10px;
     }
 }
