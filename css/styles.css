@@ -30,7 +30,7 @@ nav {
     background: whitesmoke;
     border-radius: 2%;
     height: 50px;
-    width: 1051px;
+    /*width: 1051px;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -75,11 +75,15 @@ aside {
 #aside-a, #aside-c, #aside-e, #non-aside-c {
     background: #2d8659;
     border-radius: 3%;
+    color: white;
+    padding: 5px;
 }
 
 #non-aside-a {
     background: #06130d;
     border-radius: 3%;
+    color: white;
+    padding: 5px;
 }
 
 #aside-a, #non-aside-a {
@@ -97,6 +101,8 @@ aside {
 #na-b3, #na-d2 {
     background: #06130d;
     border-radius: 3%;
+    color: white;
+    padding: 5px;
 }
 
 footer {
@@ -108,4 +114,25 @@ footer {
     background: whitesmoke;
     height: 10px;
     border-radius: 2%;
+}
+
+/*desktop view*/
+@media (min-width: 992px) {
+    #content {
+       
+    }
+}
+
+/*tablet view*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #content {
+        
+    }
+}
+
+/*mobile view*/
+@media (max-width: 767px) {
+    #content {
+        
+    }
 }
