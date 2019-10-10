@@ -14,7 +14,7 @@ header {
 }
 
 #logo {
-    font-size: 2em;
+    font-size: 1.5em;
     align-self: flex-start;
 }
 
@@ -77,4 +77,12 @@ aside {
 #non-aside-a {
     background: #06130d;
     border-radius: 3%;
+}
+
+#aside-a, #non-aside-a {
+    height: 50px;
+    padding-left: 10px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
 }
