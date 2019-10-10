@@ -106,7 +106,7 @@ aside {
 }
 
 #aside-c input {
-    max-width: 120px;
+    width: 30vh;
 }
 
 footer {
@@ -120,23 +120,18 @@ footer {
     border-radius: 2%;
 }
 
-/*desktop view*/
-@media (min-width: 992px) {
-    #content {
-       
-    }
-}
-
 /*tablet view*/
 @media (min-width: 768px) and (max-width: 991px) {
-    #content {
-        
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
 /*mobile view*/
 @media (max-width: 767px) {
-    #content {
-        
+    body {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
