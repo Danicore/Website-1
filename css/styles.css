@@ -2,6 +2,57 @@ body {
     background: #2d8659;
     text-align: center;
     display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    font-size: 2em;
+    align-self: flex-start;
+}
+
+#extra {
+    width: 200px;
+    align-self: flex-end;
+    display: flex;
     justify-content: space-between;
-    
+}
+
+nav {
+    background: whitesmoke;
+    border-radius: 2%;
+    height: 50px;
+    width: 1051px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#portrait {
+    z-index: -2;
+    display: flex;
+}
+
+#portrait article {
+    display: flex;
+}
+
+main {
+    background: whitesmoke;
+    border-radius: 1%;
+}
+
+aside {
+    display: flex;
+}
+
+#non-aside {
+    display: flex;
 }
