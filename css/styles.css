@@ -140,3 +140,12 @@ footer {
         margin-bottom: 10px;
     }
 }
+
+.zero {
+    color: #c2c2a3;
+}
+
+.cent {
+    color: #5c5c3d;
+    font-weight: bold;
+}
