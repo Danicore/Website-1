@@ -155,9 +155,9 @@ footer {
     border: 1px solid black;
     background: #5c5c3d;
     width: 20vh;
-    text-align: left;
 }
 
 #dropdown ul {
     list-style: none;
+    text-align: left;
 }
