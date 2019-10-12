@@ -151,5 +151,12 @@ footer {
 }
 
 #dropdown {
-	display: none;
+    display: none;
+    border: 1px solid black;
+    background: #5c5c3d;
+    text-align: left;
+}
+
+#dropdown ul {
+    list-style: none;
 }
