@@ -27,7 +27,7 @@ header {
 }
 
 nav {
-    background: whitesmoke;
+    background: white;
     border-radius: 2%;
     height: 50px;
     /*width: 1051px;*/
@@ -47,7 +47,7 @@ nav {
 }
 
 #content {
-    background: whitesmoke;
+    background: white;
     border-radius: 1%;
     display: flex;
 }
@@ -80,6 +80,15 @@ aside {
     padding: 5px;
 }
 
+#aside-f {
+    background: url("../images/web-pic4.png");
+    background-size: 100% 100%;
+}
+
+#aside-f * {
+    visibility: hidden;
+}
+
 #non-aside-a {
     background: #06130d;
     border-radius: 3%;
@@ -99,6 +108,15 @@ aside {
     display: flex;
 }
 
+#na-b1 {
+    background: url("../images/web-pic1.png");
+    background-size: 100% 100%;
+}
+
+#na-b1 p {
+    visibility: hidden;
+}
+
 #na-b3, #na-d2 {
     background: #06130d;
     border-radius: 3%;
@@ -116,7 +134,7 @@ footer {
 }
 
 #foot {
-    background: whitesmoke;
+    background: white;
     height: 10px;
     border-radius: 2%;
 }
