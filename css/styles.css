@@ -154,6 +154,7 @@ footer {
     display: none;
     border: 1px solid black;
     background: #5c5c3d;
+    width: 20vh;
     text-align: left;
 }
 
