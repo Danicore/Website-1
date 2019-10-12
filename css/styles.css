@@ -149,3 +149,7 @@ footer {
     color: #5c5c3d;
     font-weight: bold;
 }
+
+#dropdown {
+	display: none;
+}
