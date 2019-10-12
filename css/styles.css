@@ -1,5 +1,5 @@
 body {
-    background: #2d8659;
+    background: rgb(18, 53, 35);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@ aside {
     justify-content: space-between;
 }
 #aside-a, #aside-c, #aside-e, #non-aside-c {
-    background: #2d8659;
+    background: rgb(18, 53, 35);
     border-radius: 3%;
     color: white;
     padding: 5px;
