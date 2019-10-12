@@ -46,6 +46,13 @@ nav {
     visibility: hidden;
 }
 
+#ape {
+    background: url("../images/web-pic5.png");
+    background-size: 100% 100%;
+    width: 40vw;
+    height: 40vh;
+}
+
 #content {
     background: white;
     border-radius: 1%;
