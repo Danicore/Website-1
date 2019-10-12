@@ -11,12 +11,17 @@ body {
 
 header {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #logo {
     font-size: 1.5em;
     align-self: flex-start;
+}
+
+header img {
+    width: 8vw;
+    height: 8vh;
 }
 
 #extra {
@@ -37,17 +42,15 @@ nav {
 }
 
 #portrait {
-    z-index: -2;
     display: flex;
 }
 
 #portrait article {
     display: flex;
-    visibility: hidden;
 }
 
 #ape {
-    background: url("../images/web-pic5.png");
+    background: url("../images/web-pic5.1.png");
     background-size: 100% 100%;
     width: 40vw;
     height: 40vh;
