@@ -19,13 +19,6 @@ header {
     align-self: flex-start;
 }
 
-header img {
-    width: 8vw;
-    height: 8vh;
-    position: relative;
-    right: 3vh;
-}
-
 #extra {
     width: 200px;
     align-self: flex-end;
@@ -224,22 +217,9 @@ footer {
         margin-left: 20px;
         margin-right: 20px;
     }
-
-    header {
-        justify-content: flex-start;
-    }
-
-    header img {
-        left: 52vh;
-    }
     
-    #extra {
-        position: relative;
-        left: 117vh;
-    }
-
     #dropdown {
-        width: 28vh;
+        width: 12vw;
     }
 }
 
@@ -256,5 +236,9 @@ footer {
 
     #ape-side {
         padding: 0 0 0 0;
+    }
+
+    #dropdown {
+        width: 18vw;
     }
 }
