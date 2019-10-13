@@ -223,6 +223,27 @@ footer {
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    header img {
+        left: 0vh;
+        right: 2000px;
+    }
+    
+    #ape-side {
+        padding: 0px 0 0 70px;
+    }
+
+    #dropdown {
+        display: none;
+        border: 1px solid black;
+        background: #5c5c3d;
+        width: 20vh;
+    }
+    
+    #dropdown ul {
+        list-style: none;
+        text-align: left;
+    }
 }
 
 /*mobile view*/
@@ -234,5 +255,9 @@ footer {
 
     aside>*, #non-aside>* {
         margin-bottom: 10px;
+    }
+
+    #ape-side {
+        padding: 70px 0 0 70px;
     }
 }
