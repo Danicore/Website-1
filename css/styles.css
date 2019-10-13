@@ -58,16 +58,16 @@ nav {
     height: 40vh;
 }
 
-#pt2 {
+#ape-side {
     padding: 70px 0 0 70px;
 }
 
-#pt2 #p1 {
+#ape-side #p1 {
     font-size: 1.5em;
     text-align: left;
 }
 
-#pt2 #p2 {
+#ape-side #p2 {
     text-align: right;
     position: relative;
     top: 80px;
