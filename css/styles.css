@@ -104,7 +104,7 @@ aside {
 
 
 #aside-c input {
-    width: 30vh;
+    width: 15vw;
 }
 
 #aside-d {
@@ -230,12 +230,16 @@ footer {
         margin-right: 0;
     }
 
+    #ape-side {
+        padding: 0 0 0 0;
+    }
+
     aside>*, #non-aside>* {
         margin-bottom: 10px;
     }
 
-    #ape-side {
-        padding: 0 0 0 0;
+    #non-aside>* {
+        flex-wrap: wrap;
     }
 
     #dropdown {
