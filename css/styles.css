@@ -23,7 +23,7 @@ header img {
     width: 8vw;
     height: 8vh;
     position: relative;
-    left: 60px;
+    left: 10vh;
 }
 
 #extra {
@@ -196,26 +196,6 @@ footer {
     border-radius: 2%;
 }
 
-/*tablet view*/
-@media (min-width: 768px) and (max-width: 991px) {
-    body {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-
-/*mobile view*/
-@media (max-width: 767px) {
-    html, body {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    aside>*, #non-aside>* {
-        margin-bottom: 10px;
-    }
-}
-
 .zero {
     color: #c2c2a3;
 }
@@ -235,4 +215,24 @@ footer {
 #dropdown ul {
     list-style: none;
     text-align: left;
+}
+
+/*tablet view*/
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/*mobile view*/
+@media (max-width: 767px) {
+    html, body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    aside>*, #non-aside>* {
+        margin-bottom: 10px;
+    }
 }
