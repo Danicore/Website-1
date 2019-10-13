@@ -23,7 +23,7 @@ header img {
     width: 8vw;
     height: 8vh;
     position: relative;
-    left: 10vh;
+    right: 3vh;
 }
 
 #extra {
@@ -54,12 +54,13 @@ nav {
 #ape {
     background: url("../images/web-pic5.1.png");
     background-size: 100% 100%;
-    width: 40vw;
+    width: 50%;
     height: 40vh;
 }
 
 #ape-side {
-    padding: 70px 0 0 70px;
+    width: 50%;
+    padding: 10vh 0 0 20vh;
 }
 
 #ape-side #p1 {
@@ -70,8 +71,8 @@ nav {
 #ape-side #p2 {
     text-align: right;
     position: relative;
-    top: 80px;
-    right: 50px;
+    top: 12vh;
+    right: 8vh;
 }
 
 #content {
@@ -224,25 +225,21 @@ footer {
         margin-right: 20px;
     }
 
+    header {
+        justify-content: flex-start;
+    }
+
     header img {
-        left: 0vh;
-        right: 2000px;
+        left: 52vh;
     }
     
-    #ape-side {
-        padding: 0px 0 0 70px;
+    #extra {
+        position: relative;
+        left: 117vh;
     }
 
     #dropdown {
-        display: none;
-        border: 1px solid black;
-        background: #5c5c3d;
-        width: 20vh;
-    }
-    
-    #dropdown ul {
-        list-style: none;
-        text-align: left;
+        width: 28vh;
     }
 }
 
@@ -258,6 +255,6 @@ footer {
     }
 
     #ape-side {
-        padding: 70px 0 0 70px;
+        padding: 0 0 0 0;
     }
 }
